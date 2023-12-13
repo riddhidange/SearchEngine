@@ -1,0 +1,653 @@
+Skip to main content
+Click here to return to Amazon Web Services homepage
+Contact Us
+Support 
+English 
+My Account 
+Sign In 
+re:Invent Products Solutions Pricing Documentation Learn Partner Network AWS Marketplace Customer Enablement Events Explore More
+AWS Cloud
+What is DevOps?
+AWS Cloud
+Get Started with AWS
+DevOps on AWS
+DevOps Blog
+Partner Solutions
+Resources
+The Amazon Builders' Library
+DevOps Model Defined
+DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
+
+What is DevOps?
+How DevOps Works
+Under a DevOps model, development and operations teams are no longer “siloed.” Sometimes, these two teams are merged into a single team where the engineers work across the entire application lifecycle, from development and test to deployment to operations, and develop a range of skills not limited to a single function.
+
+In some DevOps models, quality assurance and security teams may also become more tightly integrated with development and operations and throughout the application lifecycle. When security is the focus of everyone on a DevOps team, this is sometimes referred to as DevSecOps.
+These teams use practices to automate processes that historically have been manual and slow. They use a technology stack and tooling which help them operate and evolve applications quickly and reliably. These tools also help engineers independently accomplish tasks (for example, deploying code or provisioning infrastructure) that normally would have required help from other teams, and this further increases a team’s velocity.
+
+Learn about AWS DevOps tooling and services »
+
+Benefits of DevOps
+
+Speed
+Move at high velocity so you can innovate for customers faster, adapt to changing markets better, and grow more efficient at driving business results. The DevOps model enables your developers and operations teams to achieve these results. For example, microservices and continuous delivery let teams take ownership of services and then release updates to them quicker.
+
+Rapid Delivery
+Increase the frequency and pace of releases so you can innovate and improve your product faster. The quicker you can release new features and fix bugs, the faster you can respond to your customers’ needs and build competitive advantage. Continuous integration and continuous delivery are practices that automate the software release process, from build to deploy.
+
+
+Reliability
+Ensure the quality of application updates and infrastructure changes so you can reliably deliver at a more rapid pace while maintaining a positive experience for end users. Use practices like continuous integration and continuous delivery to test that each change is functional and safe. Monitoring and logging practices help you stay informed of performance in real-time.
+
+Scale
+Operate and manage your infrastructure and development processes at scale. Automation and consistency help you manage complex or changing systems efficiently and with reduced risk. For example, infrastructure as code helps you manage your development, testing, and production environments in a repeatable and more efficient manner.
+
+Improved Collaboration
+Build more effective teams under a DevOps cultural model, which emphasizes values such as ownership and accountability. Developers and operations teams collaborate closely, share many responsibilities, and combine their workflows. This reduces inefficiencies and saves time (e.g. reduced handover periods between developers and operations, writing code that takes into account the environment in which it is run).
+
+Security
+Move quickly while retaining control and preserving compliance. You can adopt a DevOps model without sacrificing security by using automated compliance policies, fine-grained controls, and configuration management techniques. For example, using infrastructure as code and policy as code, you can define and then track compliance at scale.
+
+Why DevOps Matters
+Software and the Internet have transformed the world and its industries, from shopping to entertainment to banking. Software no longer merely supports a business; rather it becomes an integral component of every part of a business. Companies interact with their customers through software delivered as online services or applications and on all sorts of devices. They also use software to increase operational efficiencies by transforming every part of the value chain, such as logistics, communications, and operations. In a similar way that physical goods companies transformed how they design, build, and deliver products using industrial automation throughout the 20th century, companies in today’s world must transform how they build and deliver software.
+How to Adopt a DevOps Model
+DevOps Cultural Philosophy
+Transitioning to DevOps requires a change in culture and mindset. At its simplest, DevOps is about removing the barriers between two traditionally siloed teams, development and operations. In some organizations, there may not even be separate development and operations teams; engineers may do both. With DevOps, the two teams work together to optimize both the productivity of developers and the reliability of operations. They strive to communicate frequently, increase efficiencies, and improve the quality of services they provide to customers. They take full ownership for their services, often beyond where their stated roles or titles have traditionally been scoped by thinking about the end customer’s needs and how they can contribute to solving those needs. Quality assurance and security teams may also become tightly integrated with these teams. Organizations using a DevOps model, regardless of their organizational structure, have teams that view the entire development and infrastructure lifecycle as part of their responsibilities.
+DevOps Practices Explained
+There are a few key practices that help organizations innovate faster through automating and streamlining the software development and infrastructure management processes. Most of these practices are accomplished with proper tooling.
+
+One fundamental practice is to perform very frequent but small updates. This is how organizations innovate faster for their customers. These updates are usually more incremental in nature than the occasional updates performed under traditional release practices. Frequent but small updates make each deployment less risky. They help teams address bugs faster because teams can identify the last deployment that caused the error. Although the cadence and size of updates will vary, organizations using a DevOps model deploy updates much more often than organizations using traditional software development practices.
+
+Organizations might also use a microservices architecture to make their applications more flexible and enable quicker innovation. The microservices architecture decouples large, complex systems into simple, independent projects. Applications are broken into many individual components (services) with each service scoped to a single purpose or function and operated independently of its peer services and the application as a whole. This architecture reduces the coordination overhead of updating applications, and when each service is paired with small, agile teams who take ownership of each service, organizations can move more quickly.
+
+However, the combination of microservices and increased release frequency leads to significantly more deployments which can present operational challenges. Thus, DevOps practices like continuous integration and continuous delivery solve these issues and let organizations deliver rapidly in a safe and reliable manner. Infrastructure automation practices, like infrastructure as code and configuration management, help to keep computing resources elastic and responsive to frequent changes. In addition, the use of monitoring and logging helps engineers track the performance of applications and infrastructure so they can react quickly to problems.
+
+Together, these practices help organizations deliver faster, more reliable updates to their customers. Here is an overview of important DevOps practices.
+DevOps Practices
+The following are DevOps best practices: 
+
+Continuous Integration
+Continuous Delivery
+Microservices
+Infrastructure as Code
+Monitoring and Logging
+Communication and Collaboration
+Below you can learn more about each particular practice.
+Continuous Integration
+Continuous Integration
+Continuous integration is a software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run. The key goals of continuous integration are to find and address bugs quicker, improve software quality, and reduce the time it takes to validate and release new software updates.
+
+Learn more about continuous integration »
+Continuous Delivery
+Continuous Delivery
+Continuous delivery is a software development practice where code changes are automatically built, tested, and prepared for a release to production. It expands upon continuous integration by deploying all code changes to a testing environment and/or a production environment after the build stage. When continuous delivery is implemented properly, developers will always have a deployment-ready build artifact that has passed through a standardized test process.
+Learn more about continuous delivery and AWS CodePipeline »
+Microservices
+Microservices
+The microservices architecture is a design approach to build a single application as a set of small services. Each service runs in its own process and communicates with other services through a well-defined interface using a lightweight mechanism, typically an HTTP-based application programming interface (API). Microservices are built around business capabilities; each service is scoped to a single purpose. You can use different frameworks or programming languages to write microservices and deploy them independently, as a single service, or as a group of services.
+
+Learn more about Amazon Container Service (Amazon ECS) »
+
+Learn more about AWS Lambda »
+
+Infrastructure as Code
+Infrastructure as Code
+Infrastructure as code is a practice in which infrastructure is provisioned and managed using code and software development techniques, such as version control and continuous integration. The cloud’s API-driven model enables developers and system administrators to interact with infrastructure programmatically, and at scale, instead of needing to manually set up and configure resources. Thus, engineers can interface with infrastructure using code-based tools and treat infrastructure in a manner similar to how they treat application code. Because they are defined by code, infrastructure and servers can quickly be deployed using standardized patterns, updated with the latest patches and versions, or duplicated in repeatable ways.
+
+Learn to manage your infrastructure as code with AWS CloudFormation »
+
+Configuration Management
+Developers and system administrators use code to automate operating system and host configuration, operational tasks, and more. The use of code makes configuration changes repeatable and standardized. It frees developers and systems administrators from manually configuring operating systems, system applications, or server software.
+
+Learn how you can configure and manage Amazon EC2 and on-premises systems with Amazon EC2 Systems Manager »
+
+Learn to use configuration management with AWS OpsWorks »
+Policy as Code
+With infrastructure and its configuration codified with the cloud, organizations can monitor and enforce compliance dynamically and at scale. Infrastructure that is described by code can thus be tracked, validated, and reconfigured in an automated way. This makes it easier for organizations to govern changes over resources and ensure that security measures are properly enforced in a distributed manner (e.g. information security or compliance with PCI-DSS or HIPAA). This allows teams within an organization to move at higher velocity since non-compliant resources can be automatically flagged for further investigation or even automatically brought back into compliance.
+
+Learn how you can use AWS Config and Config Rules to monitor and enforce compliance for your infrastructure » 
+
+Monitoring and Logging
+Monitoring and Logging
+Organizations monitor metrics and logs to see how application and infrastructure performance impacts the experience of their product’s end user. By capturing, categorizing, and then analyzing data and logs generated by applications and infrastructure, organizations understand how changes or updates impact users, shedding insights into the root causes of problems or unexpected changes. Active monitoring becomes increasingly important as services must be available 24/7 and as application and infrastructure update frequency increases. Creating alerts or performing real-time analysis of this data also helps organizations more proactively monitor their services.
+
+Learn how you can use Amazon CloudWatch to monitor your infrastructure metrics and logs »
+
+Learn how you can use AWS CloudTrail to record and log AWS API calls »
+Communication and Collaboration
+Communication and Collaboration
+Increased communication and collaboration in an organization is one of the key cultural aspects of DevOps. The use of DevOps tooling and automation of the software delivery process establishes collaboration by physically bringing together the workflows and responsibilities of development and operations. Building on top of that, these teams set strong cultural norms around information sharing and facilitating communication through the use of chat applications, issue or project tracking systems, and wikis. This helps speed up communication across developers, operations, and even other teams like marketing or sales, allowing all parts of the organization to align more closely on goals and projects.
+DevOps Tools
+The DevOps model relies on effective tooling to help teams rapidly and reliably deploy and innovate for their customers. These tools automate manual tasks, help teams manage complex environments at scale, and keep engineers in control of the high velocity that is enabled by DevOps. AWS provides services that are designed for DevOps and that are built first for use with the AWS cloud. These services help you use the DevOps practices described above.
+
+Learn about AWS DevOps services »
+
+Learn about AWS partner solutions »
+
+Next Steps
+Get Started
+Get Started with
+AWS DevOps Services
+Get Started with AWS
+Learn how to start using AWS in minutes
+
+AWS News Blog
+See the top re:Invent picks from Jeff Barr and friends »
+
+Learn About AWS
+What Is AWS?
+What Is Cloud Computing?
+AWS Inclusion, Diversity & Equity
+What Is DevOps?
+What Is a Container?
+What Is a Data Lake?
+What is Generative AI?
+AWS Cloud Security
+What's New
+Blogs
+Press Releases
+Resources for AWS
+Getting Started
+Training and Certification
+AWS Solutions Library
+Architecture Center
+Product and Technical FAQs
+Analyst Reports
+AWS Partners
+Developers on AWS
+Developer Center
+SDKs & Tools
+.NET on AWS
+Python on AWS
+Java on AWS
+PHP on AWS
+JavaScript on AWS
+Help
+Contact Us
+Get Expert Help
+File a Support Ticket
+AWS re:Post
+Knowledge Center
+AWS Support Overview
+Legal
+AWS Careers
+Amazon is an Equal Opportunity Employer: Minority / Women / Disability / Veteran / Gender Identity / Sexual Orientation / Age.
+Language عربي Bahasa Indonesia Deutsch English Español Français Italiano Português Tiếng Việt Türkçe Ρусский ไทย 日本語 한국어 中文 (简体) 中文 (繁體)
+Privacy | Site Terms | Cookie Preferences | © 2023, Amazon Web Services, Inc. or its affiliates. All rights reserved.Atlassian logo
+Products
+
+
+
+
+
+
+
+
+
+
+Solutions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+Software Development
+DevOps
+Agile
+Microservices
+DevOps
+DevOps aligns development and operations to optimize quality and delivery.
+
+Try it free
+Articles
+DevOps principles
+DevOps frameworks
+DevOps tools
+Tutorials
+Automation
+Testing
+Security
+Observability
+Feature Flagging
+Continuous Delivery
+Interactive Guides
+Demo Atlassian Open DevOps
+Deploy ImageLabeller
+Monitor ImageLabeller
+Third-party integrations
+Building with Atlassian APIs
+What Is DevOps?
+DevOps is a set of practices, tools, and a cultural philosophy that automate and integrate the processes between software development and IT teams. It emphasizes team empowerment, cross-team communication and collaboration, and technology automation.
+
+The DevOps movement began around 2007 when the software development and IT operations communities raised concerns about the traditional software development model, where developers who wrote code worked apart from operations who deployed and supported the code. The term DevOps, a combination of the words development and operations, reflects the process of integrating these disciplines into one, continuous process.
+
+How does DevOps work?
+A DevOps team includes developers and IT operations working collaboratively throughout the product lifecycle, in order to increase the speed and quality of software deployment. It’s a new way of working, a cultural shift, that has significant implications for teams and the organizations they work for.
+
+Under a DevOps model, development and operations teams are no longer “siloed.” Sometimes, these two teams merge into a single team where the engineers work across the entire application lifecycle — from development and test to deployment and operations — and have a range of multidisciplinary skills.
+
+DevOps teams use tools to automate and accelerate processes, which helps to increase reliability. A DevOps toolchain helps teams tackle important DevOps fundamentals including continuous integration, continuous delivery, automation, and collaboration.
+
+DevOps values are sometimes applied to teams other than development. When security teams adopt a DevOps approach, security is an active and integrated part of the development process. This is called DevSecOps.
+
+The DevOps lifecycle
+Because of the continuous nature of DevOps, practitioners use the infinity loop to show how the phases of the DevOps lifecycle relate to each other. Despite appearing to flow sequentially, the loop symbolizes the need for constant collaboration and iterative improvement throughout the entire lifecycle.
+
+DevOps Infinity Wheel
+The DevOps lifecycle consists of eight phases representing the processes, capabilities, and tools needed for development (on the left side of the loop) and operations (on the right side of the loop). Throughout each phase, teams collaborate and communicate to maintain alignment, velocity, and quality.
+
+Learn more about communication and collaboration
+magnifying glass icon
+Discover
+Building software is a team sport. In preparation for the upcoming sprint, teams must workshop to explore, organize, and prioritize ideas. Ideas must align to strategic goals and deliver customer impact. Agile can help guide DevOps teams.
+
+Learn more about product discovery
+Plan
+DevOps teams should adopt agile practices to improve speed and quality. Agile is an iterative approach to project management and software development that helps teams break work into smaller pieces to deliver incremental value.
+
+Learn more about agile
+Build
+Git is a free and open source version control system. It offers excellent support for branching, merging, and rewriting repository history, which has led to many innovative and powerful workflows and tools for the development build process.
+
+Learn more about git
+checklist Icon
+Test
+Continuous integration (CI) allows multiple developers to contribute to a single shared repository. When code changes are merged, automated tests are run to ensure correctness before integration. Merging and testing code often help development teams gain reassurance in the quality and predictability of code once deployed.
+
+Learn more about CI
+rocketship icon
+Deploy
+Continuous deployment (CD) allows teams to release features frequently into production in an automated fashion. Teams also have the option to deploy with feature flags, delivering new code to users steadily and methodically rather than all at once. This approach improves velocity, productivity, and sustainability of software development teams.
+
+Learn more about CD
+Gears icon
+Operate
+Manage the end-to-end delivery of IT services to customers. This includes the practices involved in design, implementation, configuration, deployment, and maintenance of all IT infrastructure that supports an organization’s services.
+
+Learn more about operations
+eye icon
+Observe
+Quickly identify and resolve issues that impact product uptime, speed, and functionality. Automatically notify your team of changes, high-risk actions, or failures, so you can keep services on.
+
+Learn more about monitoring
+DevOps Feedback
+Continuous feedback
+DevOps teams should evaluate each release and generate reports to improve future releases. By gathering continuous feedback, teams can improve their processes and incorporate customer feedback to improve the next release.
+
+Learn more about continuous feedback
+DevOps tools
+DevOps Infinity Wheel
+DevOps tools address the key phases of the DevOps lifecycle. They empower DevOps practices by helping to improve collaboration, reduce context-switching, introduce automation, and enable observability and monitoring.
+
+DevOps toolchains usually follow two approaches: an all-in-one or open toolchain. An all-in-one toolchain offers a complete solution that usually doesn’t integrate with other third-party tools, while an open toolchain allows for customization with different tools. There are pros and cons to both approaches.
+
+An example of an open DevOps toolchain is Atlassian’s Open DevOps solution, which includes Jira as a foundation and integrates with leading vendors and marketplace apps.
+
+Read more about DevOps tools
+What are the benefits of DevOps?
+In Atlassian’s 2020 DevOps Trends survey, 99 percent of respondents said that DevOps had a positive impact on their organization. The benefits of DevOps include faster and easier releases, team efficiency, increased security, higher quality products, and consequently happier teams and customers.
+
+Speedometer
+Speed
+Teams that practice DevOps release deliverables more frequently, with higher quality and stability. In fact, the DORA 2019 State of DevOps report found that elite teams deploy 208 times more frequently and 106 times faster than low-performing teams. Continuous delivery allows teams to build, test, and deliver software with automated tools.
+
+Video Call
+Improved collaboration
+The foundation of DevOps is a culture of collaboration between developers and operations teams, who share responsibilities and combine work. This makes teams more efficient and saves time related to work handoffs and creating code that is designed for the environment where it runs.
+
+Code Release Rocket
+Rapid deployment
+By increasing the frequency and velocity of releases, DevOps teams improve products rapidly. A competitive advantage can be gained by quickly releasing new features and repairing bugs.
+
+Code Pipeline
+Quality and reliability
+Practices like continuous integration and continuous delivery ensure changes are functional and safe, which improves the quality of a software product. Monitoring helps teams keep informed of performance in real-time.
+
+Security Shield
+Security
+By integrating security into a continuous integration, continuous delivery, and continuous deployment pipeline, DevSecOps is an active, integrated part of the development process. Security is built into the product by integrating active security audits and security testing into agile development and DevOps workflows.
+
+What are the challenges of adopting DevOps?
+Habits are hard to break. Teams entrenched in siloed ways of working can struggle with, or even be resistant to, overhauling team structures to embrace DevOps practices. Some teams may mistakenly believe new tools are sufficient to adopt DevOps. Yet, DevOps is a combination of people, tools, and culture. Everyone on a DevOps team must understand the entire value stream — from ideation, to development, to the end user experience. It requires breaking down silos in order to collaborate throughout the product lifecycle.
+
+Quotation mark
+Devops isn't any single person's job. It's everyone's job.
+Robert Krohn
+
+HEAD OF ENGINEERING, DEVOPS AT ATLASSIAN
+Moving from a legacy infrastructure to using Infrastructure as Code (IaC) and microservices can offer faster development and innovation, but the increased operational workload can be challenging. It’s best to build out a strong foundation of automation, configuration management, and continuous delivery practices to help ease the load. 
+
+An over-reliance on tools can detract teams from the necessary foundations of DevOps: the team and organization structure. Once a structure is established, the processes and team should come next and the tools should follow.
+
+How to adopt DevOps
+Adopting DevOps first requires a commitment to evaluating and possibly changing or removing any teams, tools, or processes your organization currently uses. It means building the necessary infrastructure to give teams the autonomy to build, deploy, and manage their products without having to rely too heavily on external teams.
+
+DevOps culture
+A DevOps culture is where teams embrace new ways of working that involve greater collaboration and communication. It’s an alignment of people, processes, and tools toward a more unified customer focus. Multidisciplinary teams take accountability for the entire lifecycle of a product.
+
+Continuous learning
+Organizations that do DevOps well are places where experimentation and some amount of risk-taking are encouraged. Where thinking outside the box is the norm, and failure is understood to be a natural part of learning and improving.
+
+Agile
+Agile methodologies are immensely popular in the software industry since they empower teams to be inherently flexible, well-organized, and capable of responding to change. DevOps is a cultural shift that fosters collaboration between those who build and maintain software. When used together, agile and DevOps result in high efficiency and reliability.
+
+DevOps practices
+Continuous integration
+Continuous integration is the practice of automating the integration of code changes into a software project. It allows developers to frequently merge code changes into a central repository where builds and tests are executed. This helps DevOps teams address bugs quicker, improve software quality, and reduce the time it takes to validate and release new software updates.
+
+Learn about continuous integration
+Continuous delivery
+Continuous delivery expands upon continuous integration by automatically deploying code changes to a testing/production environment. It follows a continuous delivery pipeline, where automated builds, tests, and deployments are orchestrated as one release workflow.
+
+Learn about continuous delivery
+Situational awareness
+It is vital for every member of the organization to have access to the data they need to do their job as effectively and quickly as possible. Team members need to be alerted of failures in the deployment pipeline — whether systemic or due to failed tests — and receive timely updates on the health and performance of applications running in production. Metrics, logs, traces, monitoring, and alerts are all essential sources of feedback teams need to inform their work.
+
+Learn about DevOps metrics
+Automation
+Automation is one of the most important DevOps practices because it enables teams to move much more quickly through the process of developing and deploying high-quality software. With automation the simple act of pushing code changes to a source code repository can trigger a build, test, and deployment process that significantly reduces the time these steps take.
+
+Learn about DevOps automation best practices
+Infrastructure as Code
+Whether your organization has an on-premise data center or is completely in the cloud, having the ability to quickly and consistently provision, configure, and manage infrastructure is key to successful DevOps adoption. Infrastructure as Code (IaC) goes beyond simply scripting infrastructure configuration to treating your infrastructure definitions as actual code: using source control, code reviews, tests, etc.
+
+Learn about Infrastructure as Code
+Microservices
+Microservices is an architectural technique where an application is built as a collection of smaller services that can be deployed and operated independently from each other. Each service has its own processes and communicates with other services through an interface. This separation of concerns and decoupled independent function allows for DevOps practices like continuous delivery and continuous integration.
+
+Learn about microservices
+Eye
+Monitoring
+DevOps teams monitor the entire development lifecycle — from planning, development, integration and testing, deployment, and operations. This allows teams to respond to any degradation in the customer experience, quickly and automatically. More importantly, it allows teams to “shift left” to earlier stages in development and minimize broken production changes.
+
+Learn about DevOps monitoring
+Get started with DevOps
+The easiest way to get started with DevOps is to identify a small value stream (for example a small supporting app or service) and start experimenting with some DevOps practices. As with software development, it is far easier to transform a single stream with a small group of stakeholders than to attempt an all-at-once organizational transition to a new way of working. 
+
+Atlassian offers an Open DevOps solution that provides end-to-end DevOps processes with Atlassian and other third-party tools. With Jira as the backbone, teams can use Atlassian products or bring their favorite products to the open toolchain. The Atlassian ecosystem offers a robust array of integrations and add-ons, allowing teams to customize their toolchain to meet their needs.
+
+Be sure to check out our DevOps tutorials for automation, testing, security, observability, feature flagging, and continuous delivery.
+
+Devops Workshop illustration
+DevOps automation tutorials
+DevOps observability tutorials
+DevOps testing tutorials
+DevOps feature flagging tutorials
+DevOps security tutorials
+DevOps continuous delivery tutorials
+Sign up for our DevOps newsletter
+Email address
+Code Illustration
+Learn more DevOps best practices
+Text Illustration
+See what's new
+Speech Bubbles
+Engage with the Community
+Atlassian
+PRODUCTS
+Jira Software
+
+Jira Align
+
+Jira Service Management
+
+Jira Work Management
+
+Jira Product Discovery
+
+Confluence
+
+Trello
+
+Bitbucket
+
+View all products
+
+RESOURCES
+Technical Support
+
+Purchasing & licensing
+
+Atlassian Community
+
+Knowledge base
+
+Marketplace
+
+My Account
+
+Create support ticket
+
+EXPAND & LEARN
+Partners
+
+Training & Certification
+
+Documentation
+
+Developer Resources
+
+Enterprise services
+
+View all resources
+
+ABOUT ATLASSIAN
+Company
+
+Careers
+
+Events
+
+Blogs
+
+Atlassian Foundation
+
+Investor Relations
+
+Trust & Security
+
+Contact us
+
+
+English
+Privacy policy
+Notice at Collection
+Terms
+Impressum
+Copyright © 2023 Atlassian
+
+
+Main menu
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Create account
+Log in
+
+Personal tools
+Contents hide
+(Top)
+History
+See also
+Toggle See also subsection
+Agile
+ArchOps
+CI/CD
+Site-reliability engineering
+Toyota production system, lean thinking, kaizen
+DevSecOps, shifting security left
+Additional links
+Cultural change
+Toggle Cultural change subsection
+Microservices
+DevOps automation
+Automation with version control
+GitOps
+References
+DevOps
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Page protected with pending changes
+From Wikipedia, the free encyclopedia
+DevOps is a methodology in the software development and IT industry. Used as a set of practices and tools, DevOps integrates and automates the work of software development (Dev) and IT operations (Ops) as a means for improving and shortening the systems development life cycle.[1]
+
+History
+Proposals to combine software development methodologies with deployment and operations concepts began to appear in the late 80s and early 90s.[2]
+
+Around 2007 and 2008, concerns were raised by those within the software development and IT communities that the separation between the two industries, where one wrote and created software entirely separate from those that deploy and support the software was creating a fatal level of dysfunction within the industry.[3]
+
+In 2009, the first conference named DevOps Days was held in Ghent, Belgium. The conference was founded by Belgian consultant, project manager and agile practitioner Patrick Debois.[4][5] The conference has now spread to other countries.[6]
+
+In 2012, a report called “State of DevOps” was first published by Alanna Brown at Puppet Labs.[7][8]
+
+As of 2014, the annual State of DevOps report was published by Nicole Forsgren, Gene Kim, Jez Humble and others. They stated that the adoption of DevOps was accelerating.[9][10] Also in 2014, Lisa Crispin and Janet Gregory wrote the book More Agile Testing, containing a chapter on testing and DevOps.[11][12]
+
+In 2016, the DORA metrics for throughput (deployment frequency, lead time for changes), and stability (mean time to recover, change failure rate) were published in the State of DevOps report.[7]
+
+See also
+Many of the ideas fundamental to DevOps practices are inspired by, or mirror, other well known practices such as Lean and Deming's Plan-Do-Check-Act cycle, through to The Toyota Way and the Agile approach of breaking down components and batch sizes.[13] Contrary to the "top-down" proscriptive approach and rigid framework of ITIL in the 1990s, DevOps is "bottom-up" and a flexible practice, created by software engineers, with software engineer needs in mind.[14]
+
+Agile
+Main article: Agile software development
+The motivations for what has become modern DevOps and several standard DevOps practices such as automated build and test, continuous integration, and continuous delivery originated in the Agile world, which dates (informally) to the 1990s, and formally to 2001. Agile development teams using methods such as extreme programming couldn't "satisfy the customer through early and continuous delivery of valuable software"[15] unless they subsumed the operations / infrastructure responsibilities associated with their applications, many of which they automated. Because Scrum emerged as the dominant Agile framework in the early 2000s and it omitted the engineering practices that were part of many Agile teams, the movement to automate operations / infrastructure functions splintered from Agile and expanded into what has become modern DevOps. Today, DevOps focuses on the deployment of developed software, whether it is developed using Agile oriented methodologies or other methodologies.
+
+ArchOps
+ArchOps presents an extension for DevOps practice, starting from software architecture artifacts, instead of source code, for operation deployment.[16] ArchOps states that architectural models are first-class entities in software development, deployment, and operations.
+
+CI/CD
+Main article: CI/CD
+Automation is a core principle for achieving DevOps success and CI/CD is a critical component.[17] Plus, improved collaboration and communication between and within teams helps achieve faster time to market, with reduced risks.[18]
+
+Site-reliability engineering
+Main article: Site reliability engineering
+In 2003, Google developed site reliability engineering (SRE), an approach for releasing new features continuously into large-scale high-availability systems while maintaining high-quality end-user experience.[19] While SRE predates the development of DevOps, they are generally viewed as being related to each other.
+
+Toyota production system, lean thinking, kaizen
+Main article: Toyota Production System
+Toyota production system, also known under the acronym TPS, was the inspiration for lean thinking with its focus on continuous improvement, kaizen, flow and small batches. The andon cord principle to create fast feedback, swarm and solve problems stems from TPS.[20][21]
+
+DevSecOps, shifting security left
+DevSecOps is an augmentation of DevOps to allow for security practices to be integrated into the DevOps approach. Contrary to a traditional centralized security team model, each delivery team is empowered to factor in the correct security controls into their software delivery. Security practices and testing are performed earlier in the development lifecycle, hence the term "shift left". Security is tested in three main areas: static, software composition, and dynamic.
+
+In dynamic testing, also called black-box testing, software is tested without knowing its inner functions. In DevSecOps this practice may be referred to as dynamic application security testing (DAST) or penetration testing. The goal is early detection of defects including cross-site scripting and SQL injection vulnerabilities. Threat types are published by the open web application security project, e.g. its TOP10,[22] and by other bodies.
+
+DevSecOps has also been described as a cultural shift involving a holistic approach to producing secure software by integrating security education, security by design, and security automation.[23]
+
+Additional links
+DataOps
+DevOps toolchain
+Twelve-Factor App methodology
+Infrastructure as code
+Lean software development
+Value stream
+Cultural change
+DevOps initiatives can create cultural changes in companies[24] by transforming the way operations, developers, and testers collaborate during the development and delivery processes.[25] Getting these groups to work cohesively is a critical challenge in enterprise DevOps adoption.[26][27] DevOps is as much about culture as it is about the toolchain.[28]
+
+Microservices
+Although in principle it is possible to practice DevOps with any architectural style, the microservices architectural style is becoming the standard for building continuously deployed systems. Small size service allows the architecture of an individual service to emerge through continuous refactoring.[29]
+
+DevOps automation
+It also supports consistency, reliability, and efficiency within the organization, and is usually enabled by a shared code repository or version control. As DevOps researcher Ravi Teja Yarlagadda hypothesizes, "Through DevOps, there is an assumption that all functions can be carried out, controlled, and managed in a central place using a simple code."[30]
+
+Automation with version control
+Many organizations use version control to power DevOps automation technologies like virtual machines, containerization (or OS-level virtualization), and CI/CD. The paper "DevOps: development of a toolchain in the banking domain" notes that with teams of developers working on the same project, "All developers need to make changes to the same codebase and sometimes edit even the same files. For efficient working, there has to be a system that helps engineers avoid conflicts and retain the codebase history,"[31] with the Git version control system and the GitHub platform referenced as examples.
+
+GitOps
+GitOps evolved from DevOps. The specific state of deployment configuration is version-controlled. Because the most popular version-control is Git, GitOps' approach has been named after Git. Changes to configuration can be managed using code review practices, and can be rolled back using version-controlling. Essentially, all of the changes to a code are tracked, bookmarked, and making any updates to the history can be made easier. As explained by Red Hat, "visibility to change means the ability to trace and reproduce issues quickly, improving overall security."[32]
+
+References
+ Courtemanche, Meredith; Mell, Emily; Gills, Alexander S. "What Is DevOps? The Ultimate Guide". TechTarget. Retrieved 2023-01-22.
+ Chapman, M., Gatti, N: A model of a service life cycle, Proceedings of TINA '93, pp. I-205–I-215, Sep., 1993.
+ Atlassian. "History of DevOps". Atlassian. Retrieved 2023-02-23.
+ Mezak, Steve (25 January 2018). "The Origins of DevOps: What's in a Name?". devops.com. Retrieved 6 May 2019.
+ Debois, Patrick (9 October 2008). "Agile 2008 Toronto". Just Enough Documented Information. Retrieved 12 March 2015.
+ Debois, Patrick. "DevOps Days". DevOps Days. Retrieved 31 March 2011.
+ Alana Brown; Nicole Forsgren; Jez Humble; Nigel Kersten; Gene Kim (2016). "2016 State of DevOps Report" (PDF). Puppet Labs, DORA (DevOps Research. Retrieved 2019-05-06.
+ "Puppet - Alanna Brown". Puppet Labs. Retrieved 2019-04-27.
+ Nicole Forsgren; Gene Kim; Nigel Kersten; Jez Humble (2014). "2014 State of DevOps Report" (PDF). Puppet Labs, IT Revolution Press and ThoughtWorks. Retrieved 2019-04-27.
+ "2015 State of DevOps Report" (PDF). Puppet Labs, Pwc, IT Revolution Press. 2015. Retrieved 2019-05-06.
+ "More Agile Testing" (PDF). October 2014. Retrieved 2019-05-06.
+ Crispin, Lisa; Gregory, Janet (October 2014). More Agile Testing. Addison-Wesley. ISBN 9780133749571. Retrieved 2019-05-06.
+ Klein, Brandon Thorin (2021-05-01). "The DevOps: A Concise Understanding to the DevOps Philosophy and Science". Osti.gov. doi:10.2172/1785164. OSTI 1785164. S2CID 236606284.
+ "The History and Evolution of DevOps | Tom Geraghty". 5 July 2020. Retrieved 2020-11-29.
+ "Principles behind the Agile Manifesto". agilemanifesto.org. Retrieved 2020-12-06.
+ Castellanos, Camilo; Correal, Dario (15 September 2018). "Executing Architectural Models for Big Data Analytics". Software Architecture. Lecture Notes in Computer Science. Vol. 11048. pp. 364–371. doi:10.1007/978-3-030-00761-4_24. ISBN 978-3-030-00760-7.
+ Humble, Jez; Farley, David (2011). Continuous Delivery: reliable software releases through build, test, and deployment automation. Pearson Education Inc. ISBN 978-0-321-60191-9.
+ Chen, Lianping (2015). "Continuous Delivery: Huge Benefits, but Challenges Too". IEEE Software. 32 (2): 50–54. doi:10.1109/MS.2015.27. S2CID 1241241.
+ Beyer, Betsy; Jones, Chris; Petoff, Jennifer; Murphy, Niall Richard (April 2016). Site Reliability Engineering. O'Reilly Media. ISBN 978-1-4919-2909-4.
+ Analyzing the DNA of DevOps, Brent Aaron Reed, Willy Schaub, 2018-11-14.
+ Gene Kim; Patrick Debois; John Willis; Jezz Humble (2016). The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations.
+ "OWASP TOP10". Archived from the original on June 8, 2023. Retrieved June 8, 2023.
+ Wilson, Glenn (December 2020). 'DevSecOps: A leader's guide to producing secure software with compromising flow, feedback and continuous improvement'. Rethink Press. ISBN 978-1781335024.
+ Emerging Technology Analysis: DevOps a Culture Shift, Not a Technology (Report). Gartner.
+ Loukides, Mike (7 June 2012). "What is DevOps?". O'Reilly Media.
+ "Gartner IT Glossary – devops". Gartner. Retrieved 30 October 2015.
+ Jones, Stephen; Noppen, Joost; Lettice, Fiona (21 July 2016). Proceedings of the 2nd International Workshop on Quality-Aware DevOps - QUDOS 2016 (PDF). pp. 7–11. doi:10.1145/2945408.2945410. ISBN 9781450344111. S2CID 515140.
+ Mandi Walls (25 September 2015). "Building a DevOps culture". O'Reilly.
+ Chen, Lianping; Ali Babar, Muhammad (2014). "2014 IEEE/IFIP Conference on Software Architecture". The 11th Working IEEE/IFIP Conference on Software Architecture(WICSA 2014). IEEE. pp. 195–204. doi:10.1109/WICSA.2014.45. ISBN 978-1-4799-3412-6.
+ Teja Yarlagadda, Ravi (9 March 2021). "DevOps and Its Practices". SSRN 3798877.
+ Morisio, Maurizio (16 April 2021). DevOps: development of a toolchain in the banking domain. Politecnico di Torino (laurea). Retrieved 16 August 2021.
+ "What is GitOps?". www.redhat.com. Retrieved 2023-03-30.
+vte
+Software engineering
+Fields	
+Computer programmingDevOpsFormal methodsRequirements engineeringSite reliability engineeringSoftware deploymentSoftware designSoftware maintenanceSoftware testingSystems analysis
+Concepts	
+Data modelingEnterprise architectureFunctional specificationModeling languageProgramming paradigmSoftwareSoftware archaeologySoftware architectureSoftware configuration managementSoftware development process/methodologySoftware qualitySoftware quality assuranceSoftware verification and validationStructured analysis Essential analysisCI/CD
+Orientations	
+AgileAspect-orientedObject orientationOntologyService orientationSDLC
+Models	
+Developmental	
+AgileEUPExecutable UMLIncremental modelIterative modelPrototype modelRADUPScrumSpiral modelV-modelWaterfall modelXPModel-driven engineeringRound-trip engineering
+Other	
+SPICECMMIData modelER modelFunction modelInformation modelMetamodelingObject modelSystems modelView model
+Languages	
+IDEFUMLUSLSysML
+Related fields	
+Computer scienceComputer engineeringInformation scienceProject managementRisk managementSystems engineering
+ Commons Category
+Categories: Agile software developmentSoftware development processInformation technology managementSoftware development
+This page was last edited on 5 December 2023, at 13:08 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 4.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile viewWikimedia FoundationPowered by MediaWiki
+Toggle limited content width
