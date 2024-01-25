@@ -1,7 +1,7 @@
 ## SearchEngine
 
-# Introduction: This 
-Search Engine is a simple Python-based search tool designed for processing HTML files, building an occurrence map, and providing ranked search results. This project implements a basic search engine utilizing a Trie data structure. The engine processes HTML files, builds an occurrence map, and allows users to search for terms, displaying ranked results based on occurrence counts.This README provides an overview of the approach, algorithms, and data structures employed in the project.
+# Introduction: 
+This Search Engine is a simple Python-based search tool designed for processing HTML files, building an occurrence map, and providing ranked search results. This project implements a basic search engine utilizing a Trie data structure. The engine processes HTML files, builds an occurrence map, and allows users to search for terms, displaying ranked results based on occurrence counts.This README provides an overview of the approach, algorithms, and data structures employed in the project.
 
 # Approach: 
 
